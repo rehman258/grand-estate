@@ -151,3 +151,69 @@ function prog4() {
   }
 }
 prog4();
+
+
+function goupprog() {  
+  var width = 0;
+  var id2 = setInterval(frame, 15);
+  var elemm2 = document.getElementById("lastpurcent1")
+  
+  function frame() {
+    if (width >= 40) {
+      clearInterval(id2);
+    } else {
+      width++; 
+      elemm2.innerHTML = width + " % ";
+    }
+  }
+}
+goupprog();
+
+
+function goupprog1() {  
+  var width = 0;
+  var id2 = setInterval(frame, 15);
+  var elemm3 = document.getElementById("lastpurcent2")
+  
+  function frame() {
+    if (width >= 50) {
+      clearInterval(id2);
+    } else {
+      width++; 
+      elemm3.innerHTML = width + " % ";
+    }
+  }
+}
+goupprog1();
+
+function goupprog2() {  
+  var width = 0;
+  var id2 = setInterval(frame, 15);
+  var elemm4 = document.getElementById("lastpurcent3")
+  
+  function frame() {
+    if (width >= 60) {
+      clearInterval(id2);
+    } else {
+      width++; 
+      elemm4.innerHTML = width + " % ";
+    }
+  }
+}
+goupprog2();
+
+function goupprog4() {  
+  var width = 0;
+  var id2 = setInterval(frame, 15);
+  var elemm2 = document.getElementById("lastpurcent4")
+  
+  function frame() {
+    if (width >= 70) {
+      clearInterval(id2);
+    } else {
+      width++; 
+      elemm2.innerHTML = width + " % ";
+    }
+  }
+}
+goupprog4();

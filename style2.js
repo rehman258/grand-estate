@@ -52,12 +52,12 @@ function endlide2(){
 }
 function endlide3(){
     down.style.left ="-2220px";
-    inppp.style.width = "20px"
-    inppp.style.height = "20px"
-    inp.style.width = "15px"
-    inp.style.height = "15px"
-    inpp.style.width = "15px"
-    inpp.style.height = "15px"
+    inppp.style.width = "20px";
+    inppp.style.height = "20px";
+    inp.style.width = "15px";
+    inp.style.height = "15px";
+    inpp.style.width = "15px";
+    inpp.style.height = "15px";
     inp.style.background = "lightgrey";
     inpp.style.background = "lightgrey";
     inppp.style.background = "#CE291B";
@@ -119,14 +119,16 @@ function myFunction() {
     navbar.style.background = "none"
   }
 }
-// function clearbody(){
-//     window.scrollTo(0,0);
-// }
-// fix btn ucun display
+//  fix btn ucun display
 //   var btnclear = document.getElementById("allup");
 //   var bod = document.getElementsByTagName("body");
 //   var bdof = bod.scroolTop;
-// function hidshow(){
-//       console.log(bdof);  
+
+// function clearbody(a){
+//     window.scrollTo(0,0);
 // }
-// hidshow();
+
+// // function hidshow(){
+// //          bod.offsetTop = "0px";  
+// // }
+// // hidshow();
